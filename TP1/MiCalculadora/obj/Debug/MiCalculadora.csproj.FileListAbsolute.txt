@@ -1,0 +1,10 @@
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
