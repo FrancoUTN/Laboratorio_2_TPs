@@ -46,10 +46,18 @@ namespace Entidades
 
 		public static string BinarioDecimal(string binario)
 		{
-			if (true)
-				return "";
-			else
-				return "Valor inválido";
+			int ent = 0;
+			int exp = binario.Length - 1;
+
+			for (int i = 0; i < binario.Length; i++, exp--)
+
+				if (binario[i] == '1')
+					ent += (int)Math.Pow(2, exp);
+
+				else if (binario[i] != '0')
+					return "Valor inválido";
+
+			return ent.ToString();
 		}
 
 		public static string DecimalBinario(double numero)
@@ -74,8 +82,28 @@ namespace Entidades
 		{
 			if (double.TryParse(numero, out double num))
 				return Numero.DecimalBinario(num);
-			else
-				return "Valor inválido";
+
+			return "Valor inválido";
+		}
+
+		public static double operator -(Numero n1, Numero n2)
+		{
+			return n1.numero - n2.numero;
+		}
+		public static double operator *(Numero n1, Numero n2)
+		{
+			return n1.numero * n2.numero;
+		}
+		public static double operator /(Numero n1, Numero n2)
+		{
+			if (n2.numero == 0)
+				return double.MinValue;
+
+			return n1.numero / n2.numero;
+		}
+		public static double operator +(Numero n1, Numero n2)
+		{
+			return n1.numero + n2.numero;
 		}
 	}
 }
