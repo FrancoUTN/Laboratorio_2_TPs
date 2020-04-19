@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Entidades
 {
@@ -14,26 +10,23 @@ namespace Entidades
 		{
 			set
 			{
-				double num = Numero.ValidarNumero(value);
-
-				if (num != 0) // Querrán que, si no, quede en Null?
-					this.numero = num;
+				numero = ValidarNumero(value);
 			}
 		}
 
 		public Numero()
 		{
-			this.numero = 0;
+			numero = 0;
 		}
 
 		public Numero(double numero)
 		{
-			this.SetNumero = numero.ToString();
+			SetNumero = numero.ToString();
 		}
 
 		public Numero(string strNumero)
 		{
-			this.SetNumero = strNumero;
+			SetNumero = strNumero;
 		}
 
 		private static double ValidarNumero(string strNumero)
@@ -48,6 +41,9 @@ namespace Entidades
 		{
 			int ent = 0;
 			int exp = binario.Length - 1;
+
+			if (exp < 0)
+				return "Sin valor";
 
 			for (int i = 0; i < binario.Length; i++, exp--)
 
@@ -64,7 +60,7 @@ namespace Entidades
 		{
 			string bin = "";
 
-			int entero = (int) Math.Abs(numero);
+			int entero = (int)Math.Abs(numero);
 
 			for (int i = 0; entero >= 2; i++)
 			{
@@ -81,7 +77,7 @@ namespace Entidades
 		public static string DecimalBinario(string numero)
 		{
 			if (double.TryParse(numero, out double num))
-				return Numero.DecimalBinario(num);
+				return DecimalBinario(num);
 
 			return "Valor inválido";
 		}
@@ -90,10 +86,12 @@ namespace Entidades
 		{
 			return n1.numero - n2.numero;
 		}
+
 		public static double operator *(Numero n1, Numero n2)
 		{
 			return n1.numero * n2.numero;
 		}
+
 		public static double operator /(Numero n1, Numero n2)
 		{
 			if (n2.numero == 0)
@@ -101,6 +99,7 @@ namespace Entidades
 
 			return n1.numero / n2.numero;
 		}
+
 		public static double operator +(Numero n1, Numero n2)
 		{
 			return n1.numero + n2.numero;

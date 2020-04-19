@@ -8,3 +8,6 @@ C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico
 C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete

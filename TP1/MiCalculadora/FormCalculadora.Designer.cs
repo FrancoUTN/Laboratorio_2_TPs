@@ -46,7 +46,6 @@
 			this.txtNumero1.Name = "txtNumero1";
 			this.txtNumero1.Size = new System.Drawing.Size(148, 50);
 			this.txtNumero1.TabIndex = 0;
-			this.txtNumero1.Text = "10";
 			// 
 			// btnOperar
 			// 
@@ -56,6 +55,7 @@
 			this.btnOperar.TabIndex = 3;
 			this.btnOperar.Text = "Operar";
 			this.btnOperar.UseVisualStyleBackColor = true;
+			this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
 			// 
 			// btnConvertirABinario
 			// 
@@ -65,6 +65,7 @@
 			this.btnConvertirABinario.TabIndex = 6;
 			this.btnConvertirABinario.Text = "Convertir a Binario";
 			this.btnConvertirABinario.UseVisualStyleBackColor = true;
+			this.btnConvertirABinario.Click += new System.EventHandler(this.btnConvertirABinario_Click);
 			// 
 			// btnConvertirADecimal
 			// 
@@ -74,6 +75,7 @@
 			this.btnConvertirADecimal.TabIndex = 7;
 			this.btnConvertirADecimal.Text = "Convertir a Decimal";
 			this.btnConvertirADecimal.UseVisualStyleBackColor = true;
+			this.btnConvertirADecimal.Click += new System.EventHandler(this.btnConvertirADecimal_Click);
 			// 
 			// btnLimpiar
 			// 
@@ -83,6 +85,7 @@
 			this.btnLimpiar.TabIndex = 4;
 			this.btnLimpiar.Text = "Limpiar";
 			this.btnLimpiar.UseVisualStyleBackColor = true;
+			this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
 			// 
 			// btnCerrar
 			// 
@@ -92,6 +95,7 @@
 			this.btnCerrar.TabIndex = 5;
 			this.btnCerrar.Text = "Cerrar";
 			this.btnCerrar.UseVisualStyleBackColor = true;
+			this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
 			// 
 			// txtNumero2
 			// 
@@ -100,26 +104,28 @@
 			this.txtNumero2.Name = "txtNumero2";
 			this.txtNumero2.Size = new System.Drawing.Size(148, 50);
 			this.txtNumero2.TabIndex = 3;
-			this.txtNumero2.Text = "2";
 			// 
 			// cmbOperador
 			// 
 			this.cmbOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F);
 			this.cmbOperador.FormattingEnabled = true;
+			this.cmbOperador.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "*",
+            "/"});
 			this.cmbOperador.Location = new System.Drawing.Point(195, 60);
 			this.cmbOperador.Name = "cmbOperador";
 			this.cmbOperador.Size = new System.Drawing.Size(95, 50);
 			this.cmbOperador.TabIndex = 1;
-			this.cmbOperador.Text = "/";
 			// 
 			// lblResultado
 			// 
 			this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F);
-			this.lblResultado.Location = new System.Drawing.Point(245, 7);
+			this.lblResultado.Location = new System.Drawing.Point(166, 7);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(227, 50);
+			this.lblResultado.Size = new System.Drawing.Size(306, 50);
 			this.lblResultado.TabIndex = 2;
-			this.lblResultado.Text = "5000";
 			this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// FormCalculadora

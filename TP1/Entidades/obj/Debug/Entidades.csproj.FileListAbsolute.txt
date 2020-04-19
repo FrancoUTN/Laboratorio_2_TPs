@@ -1,0 +1,6 @@
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\Entidades\bin\Debug\Entidades.dll
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\Entidades\obj\Debug\Entidades.dll
+C:\Users\SuperPower\Documents\utn2A\Laboratorio-Programación-II\trabajoPractico\TP1\Entidades\obj\Debug\Entidades.pdb
