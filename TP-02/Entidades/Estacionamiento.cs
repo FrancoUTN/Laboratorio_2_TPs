@@ -13,6 +13,7 @@ namespace Entidades
     {
         List<Vehiculo> vehiculos;
         int espacioDisponible;
+
         public enum ETipo
         {
             Moto, Automovil, Camioneta, Todos
@@ -23,7 +24,7 @@ namespace Entidades
         {
             this.vehiculos = new List<Vehiculo>();
         }
-        public Estacionamiento(int espacioDisponible)
+        public Estacionamiento(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
         }
@@ -34,7 +35,7 @@ namespace Entidades
         /// Muestro el estacionamiento y TODOS los vehículos
         /// </summary>
         /// <returns></returns>
-        public string ToString()
+        public override string ToString()
         {
             return Estacionamiento.Mostrar(this, ETipo.Todos);
         }
@@ -49,7 +50,7 @@ namespace Entidades
         /// <param name="c">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public string Mostrar(Estacionamiento c, ETipo tipo)
+        public static string Mostrar(Estacionamiento c, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
 
@@ -74,7 +75,7 @@ namespace Entidades
                 }
             }
 
-            return sb;
+            return sb.ToString();
         }
         #endregion
 
@@ -87,13 +88,15 @@ namespace Entidades
         /// <returns></returns>
         public static Estacionamiento operator +(Estacionamiento c, Vehiculo p)
         {
-            foreach (Vehiculo v in c)
+            if(c.vehiculos.Count < c.espacioDisponible)
             {
-                if (v == p)
-                    return c;
+                foreach (Vehiculo v in c.vehiculos)
+                    if (v == p)
+                        return c;
+
+                c.vehiculos.Add(p);
             }
 
-            c.vehiculos.Add(p);
             return c;
         }
         /// <summary>
@@ -104,11 +107,11 @@ namespace Entidades
         /// <returns></returns>
         public static Estacionamiento operator -(Estacionamiento c, Vehiculo p)
         {
-            foreach (Vehiculo v in c)
+            foreach (Vehiculo v in c.vehiculos)
             {
                 if (v == p)
                 {
-                    break;
+                    c.vehiculos.Remove(p);
                 }
             }
 

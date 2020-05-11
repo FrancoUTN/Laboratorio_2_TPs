@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Moto
+    public class Moto : Vehiculo
     {
-        public Moto(EMarca marca, string chasis, ConsoleColor color)
+        public Moto(EMarca marca, string chasis, ConsoleColor color) : base(chasis, marca, color)
         {
         }
 
         /// <summary>
         /// Las motos son chicas
         /// </summary>
-        protected short Tamanio
+        protected override ETamanio Tamanio
         {
             get
             {
-                return 0;
+                return ETamanio.Chico;
             }
         }
 
-        private override sealed string Mostrar()
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("MOTO");
-            sb.AppendLine(this.Mostrar());
-            sb.AppendLine("TAMAÑO : {0}", this.Tamanio);
+            sb.AppendLine((string)this);
+            sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
     }
 }
