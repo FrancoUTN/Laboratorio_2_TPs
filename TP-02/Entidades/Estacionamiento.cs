@@ -54,26 +54,11 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.vehiculos.Count, c.espacioDisponible);
-            sb.AppendLine("");
+            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles\n", c.vehiculos.Count, c.espacioDisponible);
+
             foreach (Vehiculo v in c.vehiculos)
-            {
-                switch (tipo)
-                {
-                    case ETipo.Camioneta:
-                        sb.AppendLine(v.Mostrar());
-                        break;
-                    case ETipo.Moto:
-                        sb.AppendLine(v.Mostrar());
-                        break;
-                    case ETipo.Automovil:
-                        sb.AppendLine(v.Mostrar());
-                        break;
-                    default:
-                        sb.AppendLine(v.Mostrar());
-                        break;
-                }
-            }
+                if (ETipo.Todos.ToString() == tipo.ToString() || v.GetType().ToString() == "Entidades." + tipo.ToString())
+                    sb.AppendLine(v.Mostrar());
 
             return sb.ToString();
         }
@@ -107,11 +92,17 @@ namespace Entidades
         /// <returns></returns>
         public static Estacionamiento operator -(Estacionamiento c, Vehiculo p)
         {
+            int cont = -1;
+
             foreach (Vehiculo v in c.vehiculos)
             {
+                cont++;
+
                 if (v == p)
                 {
-                    c.vehiculos.Remove(p);
+                    c.vehiculos.RemoveAt(cont);
+
+                    break;
                 }
             }
 
