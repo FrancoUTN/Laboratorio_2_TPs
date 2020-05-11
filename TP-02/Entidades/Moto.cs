@@ -8,6 +8,9 @@ namespace Entidades
 {
     public class Moto : Vehiculo
     {
+        /// <summary>
+        /// Inicializa los atributos de la clase paterna
+        /// </summary>
         public Moto(EMarca marca, string chasis, ConsoleColor color) : base(chasis, marca, color)
         {
         }
@@ -23,6 +26,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Muestra los atributos contenidos en la clase paterna
+        /// y también los específicos de la clase actual.
+        /// </summary>
+        /// <returns> El texto a mostrar. </returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

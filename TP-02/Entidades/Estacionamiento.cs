@@ -9,7 +9,7 @@ namespace Entidades
     /// <summary>
     /// No podrá tener clases heredadas.
     /// </summary>
-    public class Estacionamiento
+    public sealed class Estacionamiento
     {
         List<Vehiculo> vehiculos;
         int espacioDisponible;
@@ -20,10 +20,18 @@ namespace Entidades
         }
 
         #region "Constructores"
+        /// <summary>
+        /// Crea la lista de vehículos
+        /// </summary>
         private Estacionamiento()
         {
             this.vehiculos = new List<Vehiculo>();
         }
+
+        /// <summary>
+        /// Invoca al constructor sin parámetros.
+        /// Además, carga el espacio disponible
+        /// </summary>
         public Estacionamiento(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;

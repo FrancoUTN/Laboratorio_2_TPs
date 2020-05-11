@@ -25,6 +25,10 @@ namespace Entidades
             tipo = ETipo.Monovolumen;
         }
 
+        /// <summary>
+        /// LLama al constructor que inicializa los atributos de la clase paterna.
+        /// Además, configura el tipo de auto a elección
+        /// </summary>
         public Automovil(EMarca marca, string chasis, ConsoleColor color, ETipo tipo) : this(marca, chasis, color)
         {
             this.tipo = tipo;
@@ -41,6 +45,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Muestra los atributos contenidos en la clase paterna
+        /// y también los específicos de la clase actual.
+        /// </summary>
+        /// <returns> El texto a mostrar. </returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
