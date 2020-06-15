@@ -1,0 +1,6 @@
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.pdb

@@ -1,0 +1,16 @@
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Consola.exe.config
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Consola.exe
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Consola.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Archivos.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\EntidadesAbstractas.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Excepciones.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Archivos.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\bin\Debug\Excepciones.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\obj\Debug\Consola.exe
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP3\Consola\obj\Debug\Consola.pdb
