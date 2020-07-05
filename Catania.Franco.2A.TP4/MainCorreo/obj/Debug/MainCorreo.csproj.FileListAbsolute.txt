@@ -1,0 +1,14 @@
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\bin\Debug\Entidades.dll.config
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete

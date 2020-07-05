@@ -1,0 +1,7 @@
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Ghost\source\repos\Catania.Franco.2A.TP4\Entidades\obj\Debug\Entidades.pdb
